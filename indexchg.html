@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Joe And The Mechanics</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/docs/base.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  body {font-family: "Rock+Salt", sans-serif}
+  .mySlides {display: none}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="jm-top">
+  <div class="jm-bar jm-black jm-card">
+    <a class="jm-bar-item jm-button jm-padding-large jm-hide-medium jm-hide-large jm-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="jm-bar-item jm-button jm-padding-large">HOME</a>
+    <a href="#band" class="jm-bar-item jm-button jm-padding-large jm-hide-small">BAND</a>
+    <a href="#shows" class="jm-bar-item jm-button jm-padding-large jm-hide-small">SHOWS</a>
+    <a href="#contact" class="jm-bar-item jm-button jm-padding-large jm-hide-small">CONTACT</a>
+    <div class="jm-dropdown-hover jm-hide-small">
+      <button class="jm-padding-large jm-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+      <div class="jm-dropdown-content jm-bar-block jm-card-4">
+        <a href="https://soundcloud.com/joseph-scott-wheelock" class="jm-bar-item jm-button">Music</a>
+        <a href="comingsoon.html" class="jm-bar-item jm-button">Merchandise</a>
+        <a href="comingsoon.html" class="jm-bar-item jm-button">Extras</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="jm-padding-large jm-hover-red jm-hide-small jm-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="jm-bar-block jm-black jm-hide jm-hide-large jm-hide-medium jm-top" style="margin-top:46px">
+  <a href="#band" class="jm-bar-item jm-button jm-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#shows" class="jm-bar-item jm-button jm-padding-large" onclick="myFunction()">SHOWS</a>
+  <a href="#contact" class="jm-bar-item jm-button jm-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="jm-bar-item jm-button jm-padding-large" onclick="myFunction()">MERCH</a>
+  <a href="https://soundcloud.com/joseph-scott-wheelock" class="jm-bar-item jm-button jm-padding-large" onclick="myFunction()">MUSIC</a>
+</div>
+
+<!-- Page content -->
+<div class="jm-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides jm-display-container jm-black jm-center">
+    <img src="/img/joelogo11.png" style="width:75%">
+    <div class="jm-display-bottommiddle jm-container jm-text-white jm-padding-32 jm-hide-small">
+    </div>
+  </div>
+  <div class="mySlides jm-display-container jm-center">
+    <img src="/img/band2.jpg" style="width:100%">
+    <div class="jm-display-bottommiddle jm-container jm-text-white jm-padding-32 jm-hide-small">
+    </div>
+  </div>
+
+
+  <!- The Shows Section -->
+  <div class="jm-black" id="shows">
+    <div class="jm-container jm-content jm-padding-64" style="max-width:800px">
+      <h2 class="jm-wide jm-center">Show Dates</h2>
+      <p class="jm-opacity jm-center"><i>Remember to mark your calendar!</i></p><br>
+
+      <ul class="jm-ul jm-border jm-black jm-text-grey">
+        <li class="jm-padding">June <span class="jm-tag jm-black jm-text-white jm-margin-center">Minocqua Brewing Company, Minocqua, WI on 6/22/2019</span></li>
+        <li class="jm-padding">June <span class="jm-tag jm-black jm-text-white jm-margin-center">Can Can Main Stage, Can Can Wonderland, St. Paul, MN on 6/29/2019</span></li>
+        <li class="jm-padding">June <span class="jm-tag jm-black jm-text-white jm-margin-center">Izatys Resort, Onamia, MN on 6/30/2019</span></li>
+      </ul>
+
+      <div class="jm-row-padding jm-padding-32" style="margin:0 -16px">
+        <div class="jm-third jm-margin-bottom">
+          <img src="/img/joelogo.png" alt="Minocqua, WI" style="width:100%" class="jm-hover-opacity">
+          <div class="jm-container jm-black">
+            <p><b>Minocqua, WI</b></p>
+            <p class="jm-opacity">Sat 22 Jun 2019</p>
+            <p>Minocqua Brewing Company</p>
+            <form action="https://minocquabrewingcompany.com/" method="get" target="_blank">
+              <button class="jm-button jm-white jm-margin-bottom" type="submit">Find Out More</button>
+            </form>
+          </div>
+        </div>
+         <div class="jm-third jm-margin-bottom">
+          <img src="/img/joelogo.png" alt="St. Paul" style="width:100%" class="jm-hover-opacity">
+          <div class="jm-container jm-black">
+            <p><b>St. Paul</b></p>
+            <p class="jm-opacity">Sat 29 Jun 2019</p>
+            <p>Can Can Wonderland</p>
+            <form action="https://www.cancanwonderland.com/" method="get" target="_blank">
+              <button class="jm-button jm-white jm-margin-bottom" type="submit">Find Out More</button>
+            </form>
+          </div>
+        </div>
+        <div class="jm-third jm-margin-bottom">
+          <img src="/img/joelogo.png" alt="Onamia" style="width:100%" class="jm-hover-opacity">
+          <div class="jm-container jm-black">
+            <p><b>Onamia, MN</b></p>
+            <p class="jm-opacity">Sun 30 Jun 2019</p>
+            <p>Izatys Resort</p>
+            <form action="https://izatys.com/" method="get" target="_blank">
+              <button class="jm-button jm-white jm-margin-bottom" type="submit">Find Out More</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="jm-container jm-content jm-center jm-padding-64" style="max-height:300px" style="max-width:800px" id="band">
+    <h2 class="jm-wide">THE BAND</h2>
+    <p class="jm-opacity"><i>We love music</i></p>
+    <p class="jm-justify">Your local band supporting free expression, positive vibes, good times, and top quality music</p>
+    <div class="jm-row jm-padding-32">
+      <div class="jm-third">
+        <p>Joe</p>
+        <img src="/img/joe.png" class="jm-round jm-margin-bottom" alt="Joe" style="width:70%">
+      </div>
+      <div class="jm-third">
+        <p>Cartier</p>
+        <img src="/img/cartier1.png" class="jm-round jm-margin-bottom" alt="Cartier" style="width:70%">
+      </div>
+      <div class="jm-third">
+        <p>Shane</p>
+        <img src="/img/shane.png" class="jm-round jm-margin-bottom" alt="Shane" style="width:70%">
+      </div>
+      <div class="jm-third">
+        <p>Cassidy</p>
+        <img src="/img/cassidy.png" class="jm-round jm-margin-bottom" alt="Cassidy" style="width:70%">
+      </div>
+      <div class="jm-third">
+        <p>Cue</p>
+        <img src="/img/cue.png" class="jm-round jm-margin-bottom" alt="Cue" style="width:70%">
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <!-- <div id="ticketModal" class="jm-modal">
+    <div class="jm-modal-content jm-animate-top jm-card-4">
+      <header class="jm-container jm-teal jm-center jm-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="jm-button jm-teal jm-xlarge jm-display-topright">×</span>
+        <h2 class="jm-wide"><i class="fa fa-suitcase jm-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="jm-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="jm-input jm-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="jm-input jm-border" type="text" placeholder="Enter email">
+        <button class="jm-button jm-block jm-teal jm-padding-16 jm-section jm-right">PAY <i class="fa fa-check"></i></button>
+        <button class="jm-button jm-red jm-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="jm-right">Need <a href="#" class="jm-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- The Contact Section -->
+  <div class="jm-container jm-content jm-padding-64" style="max-width:800px" id="contact">
+    <h2 class="jm-wide jm-center">CONTACT</h2>
+    <p class="jm-opacity jm-center"><i>Fan? Get on our Mailing List!</i></p>
+    <div class="jm-row jm-padding-32">
+      <div class="jm-col m6 jm-large jm-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> St. Paul, MN<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +1 952-220-5677<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: joseph_wheelock@yahoo.com<br>
+      </div>
+      <div class="jm-col m6">
+        <form action="https://usebasin.com/f/33da86f45886" method="POST">
+          <label for="email-address">Email Address</label>
+          <input type="email" id="email" name="email" required>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<!-- <img src="/jmimages/map.jpg" class="jm-image jm-greyscale-min" style="width:100%"> -->
+
+<!-- Footer -->
+<footer class="jm-container jm-padding-64 jm-center jm-opacity jm-light-grey jm-xlarge">
+  <i><a href="https://www.facebook.com/joethemech/"><i class="fa fa-facebook-official jm-hover-opacity"></i>
+  <i class="fa fa-instagram jm-hover-opacity"></i>
+  <i class="fa fa-snapchat jm-hover-opacity"></i>
+  <i class="fa fa-pinterest-p jm-hover-opacity"></i>
+  <i><a href="https://twitter.com/joethemech"><i class="fa fa-twitter jm-hover-opacity"></i>
+  <!-- <i class="fa fa-linkedin jm-hover-opacity"></i> -->
+</footer>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 8000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("jm-show") == -1) {
+    x.className += " jm-show";
+  } else {
+    x.className = x.className.replace(" jm-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
